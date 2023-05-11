@@ -1,0 +1,108 @@
+:root {
+    --main-color: #e38528;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fcf2e8;
+}
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+    /*?????????????*/
+}
+
+.app {
+    background: #eda77f;
+    /*Tuk e background color na app*/
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 20px -20px 60px #d05b34,
+        -20px 20px 60px #ff7b46;
+    background-image: linear-gradient(rgb(247, 88, 35), rgb(247, 189, 109));
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #4d2804;
+    /*ima cvyat*/
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #4d2804;
+    font-weight: 600;
+}
+
+.btn {
+    background: linear-gradient(rgb(246, 143, 109), rgb(252, 192, 101));
+    color: #222;
+    font-weight: 700;
+    width: 100%;
+    border: 1.5px solid #361c03;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #221406;
+    color: #fff
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: linear-gradient(rgb(241, 166, 54), rgb(247, 113, 68));
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+/* опит за бакграунд*/
+
+.app img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+    width: 110%;
+}
+
+.correct {
+    background: #1e7336;
+
+}
+
+.incorrect {
+    background: #c13030;
+
+}

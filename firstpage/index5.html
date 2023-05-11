@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML learning engine</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/style5.css">
+
+</head>
+<body>
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+    <header>
+
+        <a href="#" class="logo"> <span>Самоучител на </span>HTML и CSS</a>
+
+        <nav class="navbar">
+            <a href="./index1.html">Какво е HTML5</a>
+            <a href="./index2.html">Първи стъпки</a>
+            <a href="./index3.html">HTML елементи</a>
+            <a href="./index4.html">Атрибути в HTML</a>
+            <a href="./index5.html">HTML изображения</a>
+            <a href="./index6.html">Формуляри</a>
+            <a href="./index7.html">Списъци и таблици</a>
+            <a href="./index8.html">Какво е CSS3</a>
+            <a href="./index9.html">Основни понятия</a>
+            <a href="./index10.html">Позициониране</a>
+            <a href="./index11.html">Комбинатори при селекторите</a>
+            <a href="./index12.html">Псевдо-Елементи</a>
+            <a href="./index13.html">Рамка</a>
+            <a href="./QuizApp/index.html">Провери знанията си!</a>
+            <a href="./personal porfolio/index.html">Портфолио</a> 
+        </nav>
+        
+
+
+
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100004458255399" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/alper.omer/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alper-yumer894214174" class="fab fa-linkedin"></a>
+        </div>
+    
+    </header>
+    <section class="about" id="about">
+
+        <div class="content">
+            <span class="hi">HTML изображения</span>
+            
+            <h3> <span></span></h3>
+            <h3>Нека бъде<span> Цветно!</span></h3>
+
+            <p class="info"><span> </span> </p>
+
+            <p class="text"> В HTML изображения се дефинират с тага <span>< img></span>. 
+                Този таг е празен. Това означава, че може да съдържа само атрибути (никакво съдържание) и няма затварящ таг. 
+                За да покажете картинка или някакво изображение на страницата си, трябва да използвате src атрибута, 
+                като <span>src</span>>означава <span>source(източник).</span>
+                В самия атрибут се въвежда URL-а на картинката, която искате да покажете.
+            
+                <p class="info"><span> < img src="uri" /> </span> </p>
+                <p class="text"> Браузъра показва изображението, там където е сложен <span>img</span> тага.
+                    Ако сложим картинката между два параграфа, браузъра ще покаже първия параграф,
+                    ще покаже изображението и след това ще довърши втория параграф.
+    <p class="info">Атрибута <span> alt</span></p>
+                <p class="text"> Атрибута <span>alt</span> е задължителен, за да е валиден <span>HTML</span> кода ви. 
+                    Той дефинира текст, който ще бъде показан в случай, че иаозбражението не може да бъде заредено. 
+                    Съдържанието на атрибута е напълно по ваш избор.</p>
+                    <p class="info"><span>< img src="smiley.jpg"alt="Smiley Face"/></span> </p>
+                    <p class="text"><span>alt</span> атрибута предоставя допълнителна информация, в случай, че потребителя не може да види картинката (било то поради бавен интернет,
+                    грешка в src атрибута или др.)</p>
+                    <p class="info">Размери </p>
+                    <p class="info"><span>< img loading="lazy" src="smiley.jpg" alt="Smiley Face" width="42" height="42"/></span> </p>
+                    <p class="text">Атрибутите <span>height и width</span> се използват за да се определят височината и широчината на картинката. 
+                        Принципно, за размерите се използват пиксели <span>(px)</span></p>
+                        <p class="info"> Анимирани изображения</p>
+                <p class="text"><span>HTML</span> позволява анимирани <span>GIF</span> файлове:</p>
+                <p class="info"><span>< img src="programming.gif" alt="Computer Man"/></span> </p>
+
+    </p>            
+        </div>
+        <div class="image">
+            <img src="./img/img5/homeimg5.png" alt="">
+        </div>
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="fifthsite" id="fifthsite">
+
+        <h3 class="heading">Полезни съвети за <span>Изображенията </span>в HTML  </h3>
+            <div class="content1">
+                <div class="image">
+                    <img src="./img/img5/secondimg5.png" alt="">
+                <p class="text"> Когато се зареди уеб страница, браузърът в този момент получава изображението от уеб сървър
+                    и го вмъква в страницата. Затова се уверете, че изображението действително остава на едно и също място по отношение на уеб страницата, в противен случай посетителите ви ще получат икона на неработеща връзка. 
+                    Иконата за неработеща връзка и altтекстът се показват,
+                    ако браузърът не може да намери изображението.
+                    Винаги посочвайте ширината и височината на изображението. Ако ширината и височината не са посочени, 
+                    уеб страницата може да трепти, докато изображението се зарежда.
+                    Външните изображения може да са защитени с авторски права. Ако не получите разрешение да го използвате, може да сте в 
+                    нарушение на законите за авторското право.
+                    Освен това не можете да контролирате външни изображения; те могат внезапно да бъдат премахнати или променени.
+                    За да добавите favicon към уебсайта си, или запазете изображението на favicon в главната директория на вашия уеб сървър, или създайте папка в главната директория, наречена images, и запазете изображението на 
+                    favicon в тази папка. Често срещано име за изображение на фавикон е „favicon.ico“.
+                    
+                </p>
+            </div>
+                
+
+    </section>
+    <script src="script/scripts.js"></script>
+
+        </body>
+        </html>

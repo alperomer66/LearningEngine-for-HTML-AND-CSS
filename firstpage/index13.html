@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML learning engine</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="./css/style13.css">
+
+</head>
+<body>
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+    <header>
+
+        <a href="#" class="logo"> <span>Самоучител на </span>HTML и CSS</a>
+
+        <nav class="navbar">
+            <a href="./index1.html">Какво е HTML5</a>
+            <a href="./index2.html">Първи стъпки</a>
+            <a href="./index3.html">HTML елементи</a>
+            <a href="./index4.html">Атрибути в HTML</a>
+            <a href="./index5.html">HTML изображения</a>
+            <a href="./index6.html">Формуляри</a>
+            <a href="./index7.html">Списъци и таблици</a>
+            <a href="./index8.html">Какво е CSS3</a>
+            <a href="./index9.html">Основни понятия</a>
+            <a href="./index10.html">Позициониране</a>
+            <a href="./index11.html">Комбинатори при селекторите</a>
+            <a href="./index12.html">Псевдо-Елементи</a>
+            <a href="./index13.html">Рамка</a>
+            <a href="./QuizApp/index.html">Провери знанията си!</a>
+            <a href="./personal porfolio/index.html">Портфолио</a> 
+        </nav>
+        
+        
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100004458255399" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/alper.omer/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alper-yumer894214174" class="fab fa-linkedin"></a>
+        </div>
+    
+    </header>
+    <section class="about" id="about">
+
+        <div class="content">
+            <h3><span>Рам</span>ка</h3>
+            
+            <p class="text">Пропъртито <span>border-style</span> определя какъв вид рамка ще използвате за конкретния елемент. <span>Забележка:</span> Нито едно от пропъртитата за рамки няма да работят, ако <span>border-style</span> не е дефиниран!</p>
+            </p>
+            <!-------------------------------------experiment-------------------------------------------------------->
+
+
+<div class="codeBox">
+    <code>
+    <span class="codeLine1">1</span>selector::pseudo-element { <br>  
+    <span class="codeLine1">2</span>property:value;<br>                           
+    <span class="codeLine1">3</span>}<br>  
+    
+</code>
+</div>
+
+
+                
+<!---------------------------------------------------------------------------------------------->
+<h3><span>Border</span> -Width</h3>
+<p class="text">Това пропърти задава дебелината на рамката. За ширината се използва или една от предварителните стойност (тънка, средна, дебела) или се означава с пиксели.
+</p>
+<div class="codeBox">
+    <code>
+    <span class="codeLine1">1</span> p.one {<br>
+    <span class="codeLine1">2</span>  border-style: solid;<br>  
+    <span class="codeLine1">3</span>  border-width: 5px;<br>                        
+    <span class="codeLine1">4</span> }<br>
+    <span class="codeLine1">5</span>  p.two {<br>
+    <span class="codeLine1">6</span> border-style: solid;<br>
+    <span class="codeLine1">6</span> border-width: medium; <br>
+    <span class="codeLine1">7</span> }<br>
+</code>
+</div>
+</div>
+
+    
+        <div class="image">
+            <img src="./img/img13/homeimg1.png" alt="">
+        </div>
+    
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="sixthsite" id="sixthsite">
+
+        <h3 class="heading"><span>Border</span> -Color</h3>
+            <div class="content1">
+            
+                <p class="text">Може да направите рамката прозрачна (transparent). <span>Забележка:</span> Както и за дебелината, <span>border-color</span> няма да работи, освен ако не сте избрали стила на рамката преди това.</p>
+                <div class="image">
+                    <img src="./img/img13/homeimg2.png" alt="">
+                
+
+
+                <div class="codeBox">
+                    <code>
+                        <span class="codeLine1">1</span> p.one {<br>
+                        <span class="codeLine1">2</span>  border-style: solid;<br>  
+                        <span class="codeLine1">3</span>  border-color: red;<br>                        
+                        <span class="codeLine1">4</span> }<br>
+                        <span class="codeLine1">5</span>  p.two {<br>
+                        <span class="codeLine1">6</span> border-style: solid;<br>
+                        <span class="codeLine1">6</span> border-color: #98bf21; <br>
+                        <span class="codeLine1">7</span> }<br>
+                    </code>
+                </div>
+                </div>
+
+                
+            </div>
+            <!----------------------------------------------------------------------------------------------->
+
+
+            <h3 class="heading">Индивидуално<span> Стилизиране</span></h3>
+            <div class="content1">
+            
+                <p class="text">В CSS е възможно отделно да стилизираме различните страни на една и съща рамка. Можем да приложим различни стилове, различна дебелина и цвят:
+
+                </p>
+
+                <div class="image">
+                    <img src="./img/img13/homeimg3.png" alt="">
+                
+
+
+                <div class="codeBox">
+                    <code>
+                        <span class="codeLine1">1</span> p. {<br>
+                        <span class="codeLine1">2</span>  border-top-style: dotted;<br>  
+                        <span class="codeLine1">3</span>  border-right-style: solid;<br>                        
+                        <span class="codeLine1">4</span> border-bottom-style: dotted;<br>
+                        <span class="codeLine1">5</span>  border-left-style: solid;<br>
+                        <span class="codeLine1">6</span>}<br>
+                        
+                    </code>
+                    
+                </div>
+                </div>
+
+                
+            </div>
+
+            <script src="./script/scripts.js"></script>
+
+    </section>
+        </body>
+        </html>

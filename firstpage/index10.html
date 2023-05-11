@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML learning engine</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="./css/style10.css">
+
+</head>
+
+<body>
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+    <header>
+
+        <a href="#" class="logo"> <span>Самоучител на </span>HTML и CSS</a>
+
+        <nav class="navbar">
+            <a href="./index1.html">Какво е HTML5</a>
+            <a href="./index2.html">Първи стъпки</a>
+            <a href="./index3.html">HTML елементи</a>
+            <a href="./index4.html">Атрибути в HTML</a>
+            <a href="./index5.html">HTML изображения</a>
+            <a href="./index6.html">Формуляри</a>
+            <a href="./index7.html">Списъци и таблици</a>
+            <a href="./index8.html">Какво е CSS3</a>
+            <a href="./index9.html">Основни понятия</a>
+            <a href="./index10.html">Позициониране</a>
+            <a href="./index11.html">Комбинатори при селекторите</a>
+            <a href="./index12.html">Псевдо-Елементи</a>
+            <a href="./index13.html">Рамка</a>
+            <a href="./QuizApp/index.html">Провери знанията си!</a>
+            <a href="./personal porfolio/index.html">Портфолио</a>
+        </nav>
+
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100004458255399" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/alper.omer/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alper-yumer894214174" class="fab fa-linkedin"></a>
+        </div>
+
+    </header>
+    <section class="about" id="about">
+
+        <div class="content">
+            <h3><span>ПОЗИЦИОНИРА</span>НЕ</h3>
+
+            <p class="text">Свойствата на <span>CSS</span> за позициониране ви позволяват да орпеделите позицията на
+                даден HTML елемент.<br>
+                Може да ги използвате, за да поставите един елемент зад друг, или да ги припокриете до известна степен.
+                Може и да определите какво да се случи със съдържанието, ако е прекалено голямо.<br>
+                Елементите могат да се позиционират с помощта на top, left, bottom и right пропъртитата.<br>
+                Важно е да знаете, че тези пропъртита няма да работят ако не определите <span>position</span> преди
+                това.<br>
+                Пропъртитата за позиционирате работят по различен начин, в зависимост от стойността на
+                <span>position</span>. Има четири различни методи за позициониране.<br>
+            </p>
+            <!-------------------------------------experiment-------------------------------------------------------->
+
+
+            <div class="codeBox">
+                <code>
+    <span class="codeLine1">1</span>Static<br>  
+    <span class="codeLine1">2</span>Fixed<br>                           
+    <span class="codeLine1">3</span>Fixed<br>  
+    <span class="codeLine1">4</span>Absolute<br>  
+</code>
+            </div>
+
+
+
+            <!---------------------------------------------------------------------------------------------->
+            <h3><span>Фиксирано </span>позициониране</h3>
+            <p class="text"> IE7 и IE8 поддържат фиксната стойност, само ако е определен <span>DOCTYPE!</span>. <br>
+                Фиксираните елементи не зависят от останалата част на страницата, нямат влияние върху
+                <span>flow-a</span> на страницата и не разместват останалите елементи.<br>
+                Това може да се използва при менюта, които искаме винаги да са в определена част на страницата.<br>
+                Те могат да припокриват и други елементи.<br>
+            </p>
+            <div class="codeBox">
+                <code>
+    <span class="codeLine1">1</span> p.pos_fixed {<br>
+    <span class="codeLine1">2</span> position: fixed;<br>                         
+    <span class="codeLine1">3</span> top: 30px;<br>
+    <span class="codeLine1">4</span> right: 5px;<br>
+    <span class="codeLine1">5</span> }<br>
+</code>
+            </div>
+        </div>
+
+
+        <div class="image">
+            <img src="./img/img10/homeimg10.png" alt="">
+        </div>
+
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="sixthsite" id="sixthsite">
+
+        <h3 class="heading"><span> Абсолютно</span> позициониране</h3>
+        <div class="content1">
+
+            <p class="text">Абсолютната позиция елемент е позициониран спрямо първия <span>parent</span> елемент, който
+                има положение, различно от статично.<br>
+                Ако не се намери такъв елемент, контейнера е <span>
+                    < html>:< /p>
+                </span>
+
+
+            <div class="image">
+                <img src="./img/img10/secondimg10.png" alt="">
+
+
+
+                <div class="codeBox">
+                    <code>
+                    <span class="codeLine1">1</span>h2 {<br>
+                    <span class="codeLine1">2</span>position: absolute;<br>                
+                    <span class="codeLine1">3</span>left: 100px;<br>
+                    <span class="codeLine1">4</span>top: 150px;<br>
+                    <span class="codeLine1">5</span>} <br>
+                    </code>
+                </div>
+            </div>
+
+
+        </div>
+        <!----------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+        <h3 class="heading"> Припокриващи се<span> Елементи</span></h3>
+        <div class="content1">
+
+            <p class="text">Когато елементите са разположени извън нормалния поток, те могат да се застъпват с други
+                елементи.<br>
+                Пропъртито Z-index определя реда, по който ще се застъпват елементите – кой елемент е най-отгоре, кой по
+                средата и т.н..<br>
+                Един елемент може да има положителен или отрицателен z-index:</p><br>
+
+
+            <div class="image">
+                <img src="./img/img10/tirhtimg.png" alt="">
+
+
+
+                <div class="codeBox">
+                    <code>
+                    <span class="codeLine1">1</span>img {<br>
+                    <span class="codeLine1">2</span> position: absolute;<br>                
+                    <span class="codeLine1">3</span>left: 0px;<br>
+                    <span class="codeLine1">4</span> top: 0px;<br>
+                    <span class="codeLine1">5</span>z-index: -1;<br>
+                    <span class="codeLine1">6</span>}<br>
+                    </code>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="./script/scripts.js"></script>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML learning engine</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="./css/style12.css">
+
+</head>
+<body>
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+    <header>
+
+        <a href="#" class="logo"> <span>Самоучител на </span>HTML и CSS</a>
+
+        <nav class="navbar">
+            <a href="./index1.html">Какво е HTML5</a>
+            <a href="./index2.html">Първи стъпки</a>
+            <a href="./index3.html">HTML елементи</a>
+            <a href="./index4.html">Атрибути в HTML</a>
+            <a href="./index5.html">HTML изображения</a>
+            <a href="./index6.html">Формуляри</a>
+            <a href="./index7.html">Списъци и таблици</a>
+            <a href="./index8.html">Какво е CSS3</a>
+            <a href="./index9.html">Основни понятия</a>
+            <a href="./index10.html">Позициониране</a>
+            <a href="./index11.html">Комбинатори при селекторите</a>
+            <a href="./index12.html">Псевдо-Елементи</a>
+            <a href="./index13.html">Рамка</a>
+            <a href="./QuizApp/index.html">Провери знанията си!</a>
+            <a href="./personal porfolio/index.html">Портфолио</a> 
+        </nav>
+        
+        
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100004458255399" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/alper.omer/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alper-yumer894214174" class="fab fa-linkedin"></a>
+        </div>
+    
+    </header>
+    <section class="about" id="about">
+
+        <div class="content">
+            <h3><span>Псевдо</span>- Елементи</h3>
+            
+            <p class="text">CSS псевдо-елементи се използват за добавяне на специални ефекти към някои селектори.<br> Синтаксисът на псевдо-елемента:</p>
+            </p>
+            <!-------------------------------------experiment-------------------------------------------------------->
+
+
+<div class="codeBox">
+    <code>
+    <span class="codeLine1">1</span>selector::pseudo-element { <br>  
+    <span class="codeLine1">2</span>property:value;<br>                           
+    <span class="codeLine1">3</span>}<br>  
+    
+</code>
+</div>
+
+
+                
+<!---------------------------------------------------------------------------------------------->
+<h3><span>:: first line </span> псевдо-елемента</h3>
+<p class="text"><span>:: first line</span> псевдо-елемента се използва за добавяне на специален стил на първата линия на един текст.
+</p>
+<div class="codeBox">
+    <code>
+    <span class="codeLine1">1</span> p::first-line {<br>
+    <span class="codeLine1">2</span> color: #fff0000;<br>  
+    <span class="codeLine1">3</span> font-variant: small-caps;<br>                        
+    <span class="codeLine1">4</span> }<br>
+</code>
+</div>
+</div>
+
+    
+        <div class="image">
+            <img src="./img/img12/homeimg3.png" alt="">
+        </div>
+    
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="sixthsite" id="sixthsite">
+
+        <h3 class="heading"><span>::first-letter  </span> псевдо-елемента</h3>
+            <div class="content1">
+            
+                <p class="text"><span>::first-letter</span> псевдо-елемента се използва за добавяне на специален стил на първата буква от текста.</p>
+                <div class="image">
+                    <img src="./img/img12/homeimg1.png" alt="">
+                
+
+
+                <div class="codeBox">
+                    <code>
+                        <span class="codeLine1">1</span> p::first-letter {<br>
+                        <span class="codeLine1">2</span> color: yellow;<br> 
+                        <span class="codeLine1">3</span> font-size: xx-large; <br>                        
+                        <span class="codeLine1">4</span> }<br>
+                    </code>
+                </div>
+                </div>
+
+                
+            </div>
+            <!----------------------------------------------------------------------------------------------->
+
+
+            <h3 class="heading">Псевдо-елементи и <br><span> CSS класове</span></h3>
+            <div class="content1">
+            
+                <p class="text">Примерът по-долу ще покаже първата буква на всеки параграф, който е в статия – в червено.
+
+                <div class="image">
+                    <img src="./img/img12/homeimg2.png" alt="">
+                
+
+
+                <div class="codeBox">
+                    <code>
+                        <span class="codeLine1">1</span> CSS: <br>
+                        <span class="codeLine1">2</span> p.article::first-letter {color:#ff0000;}<br>                         
+                        <span class="codeLine1">5</span> HTML:<br>
+                        <span class="codeLine1">5</span> < p class="article">параграф във статия</p><br>
+                    </code>
+                </div>
+                </div>
+
+                
+            </div>
+
+            <script src="./script/scripts.js"></script>
+
+    </section>
+        </body>
+        </html>

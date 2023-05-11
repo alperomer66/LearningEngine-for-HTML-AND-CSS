@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML learning engine</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/style3.css">
+
+</head>
+<body>
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+    <header>
+
+        <a href="#" class="logo"> <span>Самоучител на </span>HTML и CSS</a>
+
+        <nav class="navbar">
+            <a href="./index1.html">Какво е HTML5</a>
+            <a href="./index2.html">Първи стъпки</a>
+            <a href="./index3.html">HTML елементи</a>
+            <a href="./index4.html">Атрибути в HTML</a>
+            <a href="./index5.html">HTML изображения</a>
+            <a href="./index6.html">Формуляри</a>
+            <a href="./index7.html">Списъци и таблици</a>
+            <a href="./index8.html">Какво е CSS3</a>
+            <a href="./index9.html">Основни понятия</a>
+            <a href="./index10.html">Позициониране</a>
+            <a href="./index11.html">Комбинатори при селекторите</a>
+            <a href="./index12.html">Псевдо-Елементи</a>
+            <a href="./index13.html">Рамка</a>
+            <a href="./QuizApp/index.html">Провери знанията си!</a>
+            <a href="./personal porfolio/index.html">Портфолио</a> 
+        </nav>
+        
+        
+        <div class="follow">
+            <a href="https://www.facebook.com/profile.php?id=100004458255399" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/alper.omer/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/alper-yumer894214174" class="fab fa-linkedin"></a>
+        </div>
+    
+    </header>
+    <section class="about" id="about">
+
+        <div class="content">
+            <span class="hi"> Елементи в HTML</span>
+            <h3> <span>HTML елементът</span> е всичко от началния таг до крайния.</h3>
+            <p class="info">Не това не е <code>< p ></code> това е :P</p>
+            <p class="text"> Има два подхода при създаването на страниците.
+                <br>HTML елемента се състои от всичко между отварящия 
+                (началния) до затварящия (крайния) таг.
+                <br>Началния таг също така често се нарича  <span> < отварящ таг> </span> . Завършващия таг също така често се нарича  <span> < /затварящ таг>.</span>
+                Повечето <span>HTML</span> елементи могат да са вложени в други <span>HTML</span> елементи. 
+                Това означава, че един елемент може в себе си да съдържа един или повече други елементи.
+                HTML документите се състоят изцяло от вложени <span>HTML</span> елементи.
+            </p>
+                <h3> <span>Не</span> забравяйте крайния таг!</h3>
+
+                <p class="text"> 
+                    Много <span>HTML</span> елементи ще доведат до неочаквани резултати и/или грешки, ако сте пропуснали крайния таг.
+                    Също така кодът ви няма да е семантично правилен. 
+                    <br>Добрата практика е след като напишете отварящия таг,
+                    да напишете и затварящия. След това да въведете съдържанието в елемента.
+                    Насоки: в <span> XHTML</span>, всички елементи трябва да са затворени. 
+                    <br>Добавянето на наклонена черта в началния таг(който се явява всъщност единствен) като < br />,
+                    е правилния начин да се затвори празен елемент в<span> XHTML (и XML).</span>
+            </p>
+                
+        </div>
+    
+        <div class="image">
+            <img src="./img/img3/page3homeimg.png" alt="">
+        </div>
+    
+    </section>
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <section class="thirdsite" id="thirdsite">
+
+        <h3 class="heading">Полезни съвети за <span>Елементите </span>в HTML  </h3>
+            <div class="content1">
+                <div class="image">
+                    <img src="./img/img3/tirhdpageimage.png" alt="">
+                </div>
+                <p class="text">Когато
+                сърфирате в Интернет ще забележите, че в повечето уроци HTML таговете са с главни букви. Ние
+                винаги ще използваме малки букви. <span>Защо?</span><br>
+                    Използвайте малки букви за имената на таговете
+                    <span>HTML</span> таговете са независими от това дали ще се изпишат с малки или големи букви:<span>< P ></span> има същото значение като <span>< p> </span>,
+                    а много уеб сайтове използват големи букви за имената на <span>HTML</span> таговете. World Wide Web Consortium (W3C), обаче, 
+                    препоръчва използването на малки букви в таговете от <span>HTML 4 </span> нататък, и изисква това за <span>XHTML. </span>
+                    <br>
+                Можете да пропуснете  таговете - <span> < html>,<br> < head>, < body></span> Според стандарта <span>HTML5</span>;
+                <br> <span>Забележка:</span>
+                <br> АЗ не препоръчвам да се изпускат маркерите <span><br>< html> и < body>.</span> <br>
+                Премахването на тези маркери може да срине <span> DOM или XML </span> софтуера  и да доведе до грешки в по-старите браузъри (IE9). 
+                <br>Обаче пропускането на маркера <span> < head> </span> е често срещана практика от доста време.
+                
+                </p>
+            </div>
+                
+            <script src="script/scripts.js"></script>
+
+
+        </body>
+        </html>
