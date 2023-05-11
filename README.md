@@ -2,13 +2,6 @@
 
 Welcome to the self-learning website for HTML and CSS! This repository contains a collection of educational materials, exercises, and resources aimed at helping you learn and improve your skills in HTML and CSS. Whether you're a beginner or have some experience, this site will provide you with the necessary tools and knowledge to enhance your web development abilities.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Course Structure](#course-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
